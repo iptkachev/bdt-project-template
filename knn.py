@@ -94,7 +94,7 @@ class KNN:
 
     def find_kneighbors_by_dists(self, dists):
         '''
-        Returns model predictions for binary classification case
+        Returns kneighbors
         
         Arguments:
         dists, np array (num_test_samples, num_train_samples) - array
